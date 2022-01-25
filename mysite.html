@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first site</title>
+     <link rel=stylesheet href="Mysite.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Neonderthaw&family=PT+Sans+Narrow&family=Roboto:wght@500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Neonderthaw&family=PT+Sans+Narrow&family=Poppins:wght@100&family=Roboto:wght@500&display=swap" rel="stylesheet">
+<link rel="icon" type="image/x-icon" href="icon.png">
+</head>
+
+<body>
+    <nav class="nav_bar">
+        <div class="logo"><h3>Welcome<span>All</span></h3></div>
+        <ul class="nav_options">
+           <div class="menu">
+               <li><a href="https://www.w3schools.com/css/default.asp" target=_blank>About</a></li>
+               <li><a href="#">home</a></li>
+               <li><a href="#">help</a></li>
+               
+           </div>
+        </ul>
+    </nav>
+    
+<form id="formctrl">
+    <label>NAME</label>
+    <input type="text"><br>
+    <label>E-mail</label><br>
+    <input type="text" required><br>
+    gender:&nbsp;&nbsp;
+    <input type="radio"  name="gender" value="male">male
+    <input type="radio"  name="gender" value="female">female<br>
+    <button onclick="submit()">submit</button>
+</form>
+<footer>This is a private site</footer>
+<!-- <div class="counter"> -->
+<h2 id="num">0</h2>
+<button onclick="add()">+</button>
+<button onclick="sub()">-</button>
+<button onclick="area(2)">area</button>
+    <script src="script1.js"></script>
+</body>
+</html>
